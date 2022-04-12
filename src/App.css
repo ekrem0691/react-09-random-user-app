@@ -1,0 +1,130 @@
+.App {
+  display: flex;
+  flex-direction: column;  
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+/* header */
+
+.first{
+  display: flex; 
+  background-color: orange;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+}
+
+/* clarusway logo */
+
+.cw{  
+  height: 60px;
+  width: 60px;   
+}
+
+/* card */
+
+.random {
+  background-color: white;
+  width: 45vw;
+  min-width: 450px;
+  margin: auto;
+  margin-top: -9rem;
+  /* border: #da0404 solid 1px; */
+  box-shadow: #de9191 1px 5px 1px;
+  border-radius: 15px;
+  
+}
+.random-empty {
+  height: 10vh;
+  min-height: 75px;
+  background-color: rgb(233, 233, 241);
+  border-radius: 10px;
+}
+.random-img {
+  display: flex;
+  justify-content: center;
+  margin-top: -4rem;
+}
+.random-icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+.avatar{
+  width: 10vw;
+  height: 10vw;
+  box-shadow: 0px 0px 10px #000000;  
+}
+.random-button {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  /* background-color: brown; */
+}
+
+/* table */
+
+.random-table {
+  display: flex;
+  justify-content: center;  
+}
+
+.random-table-div {
+  width: 90%;
+  padding: 0.5rem;
+  word-wrap: break-word;
+  /* border: 1px solid black; */
+}
+thead{
+  background-color: rgb(255, 200, 98);  
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;  
+  height: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+th{
+  margin: 2rem;
+  height: 2rem;
+}
+
+/* footer */
+
+.second{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 600px; */
+  min-width: 400px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top:20px; 
+  border: 1px solid brown;
+  border-radius: 10px;
+}
+.second:hover {
+  background-color: rgb(14, 106, 186);
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: inset 0px 0px 10px #000000;
+  
+}
+.design-img{
+  height: 40px;
+  width: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.h1name{
+  font-size: 30px;
+  color: rgb(25, 1, 1);
+}
+.h1design{
+  color :  brown;
+}
